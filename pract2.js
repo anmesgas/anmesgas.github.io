@@ -151,5 +151,5 @@ function render() {
 }
 
 init();
-loadScene();
+//loadScene();
 render();
