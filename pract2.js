@@ -146,6 +146,7 @@ renderer = new THREE.WebGLRenderer();
 
 function render() {
     requestAnimationFrame(render);
+    update()
     renderer.render(scene,camera);
 }
 
